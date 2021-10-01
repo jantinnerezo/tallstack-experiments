@@ -17,5 +17,10 @@
         "lodash": "^4.17.19",
         "postcss": "^8.2.8",
         "tailwindcss": "^2.0.4"
+    },
+    "dependencies": {
+        "@tailwindcss/typography": "^0.4.1",
+        "alpinejs": "^3.4.2",
+        "nouislider": "^15.4.0"
     }
 }

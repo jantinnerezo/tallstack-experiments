@@ -11,19 +11,12 @@
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
-
-        @livewireStyles
-        
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>        
     </head>
-    <body class="bg-black w-full h-full m-0 overflow-hidden">
+    <body class="w-full h-full m-0 overflow-hidden">
         {{ $slot }}
         @livewireScripts
-
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-
-        <x-livewire-alert::scripts />
-
+        <script src="{{ asset('js/app.js') }}" defer></script>
         <script src="{{ asset('js/bodymovin.js') }}"></script>
     </body>
 </html>

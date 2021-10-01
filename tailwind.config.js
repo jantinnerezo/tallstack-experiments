@@ -1,4 +1,5 @@
 module.exports = {
+  jit: false,
   purge: [
     './resources/**/*.blade.php',
     './resources/**/*.js',
@@ -11,5 +12,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
