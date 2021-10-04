@@ -16,7 +16,7 @@
     <body class="w-full h-full m-0 overflow-hidden">
         {{ $slot }}
         @livewireScripts
-        <script src="{{ asset('js/app.js') }}" defer></script>
+        @livewireRangeSliderScripts
         <script src="{{ asset('js/bodymovin.js') }}"></script>
     </body>
 </html>

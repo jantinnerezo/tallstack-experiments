@@ -9,7 +9,7 @@ class UiComponents extends Component
     public $rangeOptions = [
         'sample_1' => [
             'options' => [
-                'start' => [40, 80],
+                'start' => [40, 80, 90, 95],
                 'range' => [
                     'min' =>  [1],
                     'max' => [100]
