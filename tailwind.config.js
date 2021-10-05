@@ -13,7 +13,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('@tailwindcss/typography'),
-    require('./resources/js/styling/range-slider')
+    require('@tailwindcss/typography')
   ],
 }
